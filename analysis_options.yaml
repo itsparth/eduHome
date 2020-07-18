@@ -1,0 +1,13 @@
+include: package:lint/analysis_options.yaml
+
+analyzer:
+  exclude: 
+    - '**/*.g.dart'
+    - '**/*.freezed.dart'
+    - '**/*.gr.dart'
+    - '**/*.iconfig.dart'
+
+linter:
+  rules:
+    prefer_single_quotes: true
+    prefer_relative_imports: true
